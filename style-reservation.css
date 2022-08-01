@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: solid black; */
+}
+body{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(image/reservation.svg);
+    background-size: cover;
+    color:white;
+    height: 100vh;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #F58634;
+}

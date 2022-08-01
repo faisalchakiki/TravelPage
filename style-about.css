@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: solid black; */
+}
+body{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(image/bg-about.png);
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+  padding-top: 6%;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #F58634;
+}
+p{
+    color: white;
+    font-size:20px ;
+    font-weight: 200;
+}
